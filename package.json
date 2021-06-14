@@ -10,7 +10,6 @@
   "author": "Alejandro Silva <a.s.cebreros@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "json-server": "^0.15.0",
     "moment": "^2.29.1"
   },
   "devDependencies": {
