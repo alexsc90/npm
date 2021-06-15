@@ -1,22 +1,26 @@
 {
   "name": "npmjs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "\"Publicar paquete\"",
+  "main": "src/index.js",
+  "bin": {
+    "npmjs": "global.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexsc90/npm.git"
+  },
   "author": "Alejandro Silva <a.s.cebreros@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "moment": "^2.29.1"
+  "bin": {
+    "random": "./bin/global.js"
   },
-  "devDependencies": {
-    "date-fns": "^2.22.1",
-    "webpack": "^5.39.0"
+  "preferGlobal": true,
+  "bugs": {
+    "url": "https://github.com/alexsc90/npm/issues"
   },
-  "optionalDependencies": {
-    "eslint": "^7.28.0"
-  }
+  "homepage": "https://github.com/alexsc90/npm#readme"
 }
